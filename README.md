@@ -1,8 +1,8 @@
 # API slim PHP [Ice-Wolf]
 
-Este projeto é um starter-pack para se iniciar um projeto API com PHP slim.
-Seu objetivo é facilitar a criação dos metodos para se criar uma aplicação REST.
-Também disponibiliza alguns comandos para criação e atualização de banco de dados (Migrate).
+Este projeto é um starter-pack para se iniciar um projeto API com PHP slim.<br>
+Seu objetivo é facilitar a criação dos metodos para se criar uma aplicação REST.<br>
+Também disponibiliza alguns comandos para criação e atualização de banco de dados (Migrate).<br>
 
 ## Tecnologias Utilizadas
 
@@ -33,15 +33,19 @@ Siga os passos abaixo para rodar o projeto localmente:
     composer install
 
 4. Configure o arquivo env.php
-    ```bash
-    Copie o arquivo exepleenv.php e renomeie para env.php e preencha os dados com as informações do seu baco de dados.
+    - Copie o arquivo "exepleenv.php" na raiz do projeto e renomeie para "env.php" e preencha os dados com as informações do seu baco de dados.
+        - putenv('DB_MYSQL_HOST={ip_da_maquina_do_banco_de_dados}');
+        - putenv('DB_MYSQL_PORT={nome_do_usuario_do_banco_de_dados}');
+        - putenv('DB_MYSQL_USER={nome_do_usuario_do_banco_de_dados}');
+        - putenv('DB_MYSQL_PASSWORD={senha_do_usuario}');
+        - putenv('DB_MYSQL_DBNAME={nome_da_base_de_dados}');
 
 5. Inicie o servidor de desenvolvimento:
     ```bash
     php -S localhost:8000
 
 6. Acesse a pagina:
-    Abra seu navegador e acesse o link http://localhost:8000/
+    - Abra seu navegador e acesse o link http://localhost:8000/
 
 ## Comandos Uteis
 
@@ -51,5 +55,5 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 ## Contato
 
-Se você tiver alguma dúvida ou sugestão, pode me contatar em guibarlatti@gmail.com
+Se você tiver alguma dúvida ou sugestão, pode me contatar em guibarlatti@gmail.com<br>
 Obrigado por visitar meu projeto!
