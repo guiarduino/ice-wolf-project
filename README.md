@@ -22,11 +22,11 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/guiarduino/ice-wolf-project
+    git clone https://github.com/guiarduino/slim-api-project
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd ice-wolf-project
+    cd slim-api-project
 
 3. Instale as dependências:
     ```bash
