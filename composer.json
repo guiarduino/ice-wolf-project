@@ -1,5 +1,5 @@
 {
-    "name": "guibarlatti/ice-wolf-project",
+    "name": "guibarlatti/slim-api-project",
     "version": "1.0.0",
     "require": {
         "slim/slim": "^4.14",

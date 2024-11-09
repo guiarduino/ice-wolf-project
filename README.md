@@ -1,4 +1,4 @@
-# API slim PHP [Ice-Wolf]
+# API slim PHP
 
 Este projeto é um starter-pack para se iniciar um projeto API com PHP slim.<br>
 Seu objetivo é facilitar a criação dos metodos para se criar uma aplicação REST.<br>
