@@ -1,0 +1,22 @@
+{
+    "name": "guibarlatti/ice-wolf-project",
+    "version": "1.0.0",
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "Helpers\\": "app/Helpers/"
+        }
+    },
+    "scripts": {
+        "show:routes": "php ./app/Helpers/ShowRoutes.php"
+    },
+    "authors": [
+        {
+            "name": "guibarlatti"
+        }
+    ]
+}
